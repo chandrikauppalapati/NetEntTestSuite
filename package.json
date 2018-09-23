@@ -1,0 +1,18 @@
+{
+  "name": "netenttestsuite",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npm install && npx mocha cross-browser/*.js --timeout 150000 && ./node_modules/gatlingjs/deps/bin/gatling.sh -sf ./performance/simulations -m"
+  },
+  "dependencies": {
+    "config": "^2.0.1",
+    "js-yaml": "^3.12.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "browserstack-local": "^1.3.4",
+    "mocha": "^5.2.0",
+    "merge": "^1.2.0",
+    "gatlingjs": "^0.0.7",
+    "date-arithmetic": "^3.1.0"
+  }
+}

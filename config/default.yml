@@ -1,0 +1,17 @@
+browserstack:
+  server: 'http://hub-cloud.browserstack.com/wd/hub'
+  user: uppalapati1
+  key: g7skXL8pW8JA3ipJBJFj
+base-url: 'http://127.0.0.1:8000'
+user-agents:
+  -
+    browserName: chrome
+    os_version: "10"
+    os: Windows
+    browser_version: "69.0"
+  -
+    browserName: iPhone
+    os_version: "9.0"
+    os: iOS
+    realMobile: true
+    device: "iPhone 6S"
